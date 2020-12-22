@@ -1,6 +1,6 @@
 package demo.jieixiwenjian;
 
-import com.wsn.demo.exception.ApiException;
+import demo.exception.ApiException;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
