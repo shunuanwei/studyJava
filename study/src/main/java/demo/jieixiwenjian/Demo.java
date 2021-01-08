@@ -111,6 +111,7 @@ public class Demo {
 
 
     public static void main(String[] args) {
-        System.out.println(getContent(new File("E:/jiexi/test1.xlsx")));
+//        System.out.println(getContent(new File("E:/jiexi/test1.xlsx")));
+        System.out.println(Demo.class.getClass().getClassLoader().getResourceAsStream("simsun.ttc"));
     }
 }
